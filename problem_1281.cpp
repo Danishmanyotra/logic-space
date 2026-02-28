@@ -7,9 +7,9 @@ int main() {
     int prod=1;
     int sum=0;
     while(n!=0) {
-        int c=n%10;
-        prod=prod*c;
-        sum=sum+c;
+        int digit=n%10;
+        prod=prod*digit;
+        sum=sum+digit;
         n=n/10;
     }
     int ans = prod-sum;
